@@ -1,0 +1,81 @@
+/*general*/
+
+html{
+	
+	
+}
+
+body{
+	
+	font: 18px Georgia, Times, "Times New Roman", Serif;
+}
+
+
+
+h1{
+	font: 30px Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+	color: #Ffc008;
+}
+
+
+
+ul#measurement-types{
+	list-style-type: none;
+	margin: 1em 0;
+	padding: 0;
+}
+
+ul#measurement-types {
+	height: auto;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+ul#measurement-types {
+	text-decoration: none;
+	color: black;
+	
+	background: white;
+	padding: 16px 24px;
+	width: 180px;
+	border: 1px #Ff8c00;
+}
+
+ul#measurement-types li a:hover{
+	color: white;
+	background: #Ff8c00;
+}
+
+/Conversion forms/
+
+form label{
+	display: inline-block;
+	width: 45px;
+}
+
+form input[type="text"]{
+	width: 80px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+form select{
+	margin: 1em 0;
+	font-size: 14px;
+}
+
+form input[type="submit"]{
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+	display: block;
+	background: white;
+	margin: 2em 0 2em 25px;
+	padding: 6px 12px;
+	border: 1px solid black;
+}
+
+form input[type="submit"]:hover{
+	color: white;
+	background: #Ff8c00;
+}
